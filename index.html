@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Example Page</title>
+        <Style>
+            @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,400i,600,700,800');
+            html {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 15px;
+                padding: 0px;
+                margin: 0px;
+            }
+            body {
+                padding: 0px;
+                margin: 0px;
+            }
+            h1 {
+                color:#FFFFFF;
+                margin-bottom: 10px;
+                font-family: 'Abril Fatface', cursive;
+                font-size: 4rem;
+                letter-spacing: .1em;
+            }
+            p {
+                font-size:1.4em;
+                margin-bottom: 1.5em;
+            }
+            strong {
+                font-weight: bold;
+            }
+            strong.bolder {
+                font-weight: 600;
+            }
+            section {
+                margin: 10px 0px;
+                border-bottom: solid black 2px;
+            }
+            #nav a:link, a:active, a:visited {
+                color: red;
+                font-weight: bold;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 1em;
+                margin: 10px;
+                padding: .2em .7em;
+                background-color: black;
+            }
+            #nav a:hover {
+                background-color: beige;
+                color: black;
+                text-decoration: underline;
+            }
+            .details {
+                font-size: 15px;
+                background-color: slategrey;
+            }
+            sup {
+                font-size: .5em;
+            }
+            div#banner {
+                height: 400px;
+                margin: 0px;
+                text-align: center;
+                vertical-align: middle;
+                padding: 5em 0em 0em 0em;
+            }
+            div#banner img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                filter:blur(5px);
+                margin: -2em;
+            }
+            div#banner h1 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                text-align: center;
+                display: block;
+                margin: auto;
+                width: 100%;
+                margin-top: 10%
+            }
+            div#bio {
+                background-color: #eeeeee;
+                float:left;
+            }
+            div#name {
+                float:left;
+                width: 200px;
+            }
+            th {
+                font-size: 1.2em;
+            }
+        </Style>
+    </head>
+    <body>
+
+        
+        <nav id="nav">
+            <a href="#bio">Bio</a>
+            <a href="#details">Details</a>
+            <a href="#stats">Stats</a>
+        </nav>
+        
+        <div id="banner">
+            <img src="images/jagr_bnr.jpg">
+            <h1>Jaromir Jagr | #68</h1>
+        </div>
+        
+        <div id="name">
+            
+        </div>
+        <div id="bio">
+            <p>Workhorse wing won two <strong class="bolder">Stanley</strong> Cup titles in Pittsburgh, second on NHL points list</p>
+        </div>
+        
+        <section id="stats">
+            <h1>Athlete's Stats</h1>
+            
+            <table>
+                <colgroup>
+                    <col span="1">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Season</th>
+                        <th>GP</th>
+                        <th>G</th>
+                        <th>A</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td>content</td>
+                        <td>content</td>
+                        <td>content</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>2017-2018</td>
+                        <td>22</td>
+                        <td>1</td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        
+    </body>
+</html>
